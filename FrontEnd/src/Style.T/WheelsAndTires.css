@@ -1,0 +1,62 @@
+.wheels-tires-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .wheels-tires-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .wheels-tires-page h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .wheels-tires-page p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .wheels-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .wheel-item {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .wheel-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .wheel-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .wheel-item p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  
+  
+  
+  

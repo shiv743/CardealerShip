@@ -1,0 +1,87 @@
+/* General reset */
+html, body {
+    height: 100%; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Use a clean and professional font */
+  }
+  
+  /* Background image and flexbox for centering the form */
+  .sign-in-page {
+    background-image: url("C:\Users\Tarun\Documents\GitHub\CarDealership\FrontEnd\public\Images\ford.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    color: white;
+    padding-top: 80px;
+  }
+  
+  /* Sign-in form container */
+  .sign-in-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Depth effect */
+    text-align: center;
+    width: 90%;  /* Full width */
+    max-width: 400px; /* Maximum width for the form */
+    align-items: center;
+  }
+  
+  /* Heading style */
+  .sign-in-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #FFD700; /* Yellow color for the heading */
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 350px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;  /* White background for input fields */
+    color: #333; /* Dark text color */
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    border-color: #FFD700; /* Gold color border on focus */
+    outline: none; /* Remove outline on focus */
+  }
+  
+  /* Submit button styling */
+  .sign-in-button {
+    background-color: #4CAF50;  /* Green button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+  }
+  
+  /* Removed Forgot Password and Sign Up links */
+  .forgot-password {
+    display: none;
+  }
+  
+  .sign-up {
+    display: none;
+  }
+  

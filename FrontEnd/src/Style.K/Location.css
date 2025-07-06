@@ -1,0 +1,32 @@
+/* Full page layout for Location */
+.location-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Ensures the map takes available space */
+    padding: 20px;
+}
+
+.location-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.location-map {
+    width: 100%;
+    max-width: 1400px; /* Limits the width for large screens */
+    height: 600px; /* Increased height for better visibility */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

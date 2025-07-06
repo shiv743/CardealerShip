@@ -1,0 +1,199 @@
+.car-details-page {
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.car-details-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2; /* Solid light grey background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* Back Button Styling */
+.back-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 30px 30px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #c0392b;
+}
+
+/* Center text in the car details header */
+.car-details-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.car-details-header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Flex layout for content */
+.car-details-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.car-image-section {
+    flex: 2;
+}
+
+.main-car-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+/* Description Section */
+.car-description {
+    margin-top: 20px;
+}
+
+.car-description h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Specifications Section */
+.car-specs-and-actions {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.car-specs {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-specs h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.car-specs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car-specs li {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    justify-content: space-around; /* Space buttons evenly */
+    margin-top: 20px; /* Add space above the buttons */
+    gap: 15px; /* Space between buttons */
+}
+
+.action-buttons .info-button,
+.action-buttons .finance-button,
+.action-buttons .directions-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff; /* Text color */
+    background-color: white; /* Background color */
+    text-align: center; /* Center the text */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    cursor: pointer;
+}
+
+.action-buttons .info-button:hover,
+.action-buttons .finance-button:hover,
+.action-buttons .directions-button:hover {
+    background-color: #007bff; /* Hover background */
+    color: white; /* Hover text color */
+}
+
+.action-buttons .info-button {
+    border-color: #17a2b8; /* Info button color */
+    color: #17a2b8;
+}
+
+.action-buttons .info-button:hover {
+    background-color: #17a2b8; /* Hover background for info */
+    color: white; /* Hover text color for info */
+}
+
+.action-buttons .finance-button {
+    border-color: #28a745; /* Finance button color */
+    color: #28a745;
+}
+
+.action-buttons .finance-button:hover {
+    background-color: #28a745; /* Hover background for finance */
+    color: white; /* Hover text color for finance */
+}
+
+.action-buttons .directions-button {
+    border-color: #ffc107; /* Directions button color */
+    color: #ffc107;
+}
+
+.action-buttons .directions-button:hover {
+    background-color: #ffc107; /* Hover background for directions */
+    color: white; /* Hover text color for directions */
+}
+
+/* Location Info */
+.location-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.location-info h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.location-info p {
+    margin: 5px 0;
+    color: #333;
+}

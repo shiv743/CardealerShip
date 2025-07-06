@@ -1,0 +1,126 @@
+
+  
+  /* Page title styling */
+  .page-title {
+    font-size: 3rem;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Container styling for the form */
+  .financing-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  /* Styling for form labels */
+  .form-group label {
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Styling for form inputs */
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 300px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.4);
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #b92929;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1e6fa4;
+    transform: translateY(-2px);
+  }
+  
+  .btn-secondary {
+    background-color: #7f8c8d;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6c7b7c;
+    transform: translateY(-2px);
+  }
+  
+  /* Alert box for errors */
+  .alert-danger {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for result card */
+  .result-card {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  /* Enhancements for small screen responsiveness */
+  @media (max-width: 768px) {
+    .financing-container {
+      padding: 15px;
+    }
+  
+    .page-title {
+      font-size: 2rem;
+    }
+  
+    .btn-primary,
+    .btn-secondary {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  

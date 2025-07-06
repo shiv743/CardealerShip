@@ -1,0 +1,132 @@
+/* Specific styling for the Booking.js component */
+.booking-page {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.booking-form {
+  width: 65%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.booking-form input, .booking-form textarea {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking-form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.booking-form button {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #c9302c;
+}
+
+.booking-contact-info {
+  width: 30%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-contact-info .contact-image {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.booking-contact-info h3 {
+  margin-top: 0;
+}
+
+.booking-contact-info p {
+  margin: 10px 0;
+}
+
+.booking-form h1 {
+  text-align: center;
+}
+
+.booking-form h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.booking-form h3 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.booking-form input[type="date"] {
+  width: 100%;
+}
+
+.booking-form input[type="text"], 
+.booking-form input[type="email"], 
+.booking-form input[type="tel"], 
+.booking-form input[type="date"] {
+  width: calc(50% - 10px);
+}
+
+.booking-form textarea {
+  width: 100%;
+}
+
+.styled-dropdown {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.styled-dropdown:focus {
+  outline: none;
+  border-color: #312c2c;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}

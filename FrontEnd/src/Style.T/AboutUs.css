@@ -1,0 +1,110 @@
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-image {
+    position: relative;
+    width: 45%;
+  }
+  
+  .off-road-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-text h2 {
+    color: #e60000;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .core-values-section {
+    margin-top: 40px;
+  }
+  
+  .core-values-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .core-values-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .core-values-section li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .core-values-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .core-value-image {
+    width: 60%;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #e60000;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  
+  
+  
+  

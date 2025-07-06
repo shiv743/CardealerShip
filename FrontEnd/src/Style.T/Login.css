@@ -1,0 +1,118 @@
+/* src/components/Login.css */
+
+html, body {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Use a professional font */
+  }
+  
+  .login-page {
+    background-image: url("C:\Users\Tarun\Documents\GitHub\CarDealership\FrontEnd\public\Images\ford.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    color: black;
+    padding-top: 80px;
+  }
+  
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly darker semi-transparent background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* More pronounced shadow for depth */
+    text-align: center; /* Center text */
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Max width to limit size */
+  }
+  
+  .login-container h1 {
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 24px; /* Title font size */
+    color: #FFD700; /* Gold color for the title */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 400px;
+    padding: 12px; /* Increased padding for better usability */
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+    background-color: #fff; /* White background for input */
+    color: #333; /* Dark text color */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #FFD700; /* Gold border on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  .login-button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .login-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    font-size: 14px; /* Smaller font size for forgot password */
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .facebook-button,
+  .google-button {
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px; /* Space between buttons */
+    font-size: 14px; /* Standard button font size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .facebook-button {
+    background-color: #3b5998; /* Facebook color */
+  }
+  
+  .google-button {
+    background-color: #DB4437; /* Google color */
+  }
+  
+  .facebook-button:hover {
+    background-color: #2d4373; /* Darker Facebook color on hover */
+  }
+  
+  .google-button:hover {
+    background-color: #c62828; /* Darker Google color on hover */
+  }
+  
+  
+  /* Import Google Font */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+  
+  
+  
+  
+  
